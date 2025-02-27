@@ -37,7 +37,7 @@ The project consists of two files:
 
 ## 📌 Purpose
 
-My purpose for working on this project is to **practice and revise my CSS skills** and to **apply Git skills for the first time**.
+My purpose for working on this project is to **practice and revise my CSS skills** and to **apply Git skills**.
 
 This project is part of **freeCodeCamp's curriculum**.
 

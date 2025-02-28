@@ -23,6 +23,6 @@ h1 {
 }
 
 .blue {
-  background-color: rgb(255,0,127);
+  background-color: hsl(240,100%,50%);
 }
 

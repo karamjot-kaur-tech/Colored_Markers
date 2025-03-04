@@ -12,6 +12,7 @@ h1 {
   align-items: center;     /* 3 */
 }
 
+/* Marker styling */
 .marker {
   width: 200px;
   height: 25px;

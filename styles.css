@@ -4,11 +4,17 @@ h1 {
 
 .container {
   background-color: rgb(255,255,255);
-  padding: 10px 0;
+  padding: 20px 0;
   display: flex;                      /* 1  */
   flex-direction: column;             /* 2  */
-  align-items: center;                /* 3  */
+  align-items: center;                /* 3 Centers everything horizontally */
+  gap: 15px;                          /* 4 Adds space between markers */
 }
+
+/* What 3 and 4 does:
+
+    Aligns markers properly
+    Adds equal spacing between markers */
 
 .marker {
   width: 200px;

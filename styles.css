@@ -16,7 +16,6 @@ h1 {
     Aligns markers properly
     Adds equal spacing between markers */
 
-/* Now working on marker */
 .marker {
   width: 200px;
   height: 25px;
@@ -31,6 +30,9 @@ h1 {
 .cap {
   width: 60px;
   height: 25px;
+  border-radius: 6px 0 0 6px;                   /* 10 */
+  display: inline-block;                        /* 11 */
+  transition: transform 0.3s ease-in-out;       /* 12 */
 }
 
 .sleeve {

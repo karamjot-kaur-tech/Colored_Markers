@@ -64,18 +64,66 @@ h1 {
   display: inline-block;
 }
 
+/* ===============================
+   Individual Marker Colors
+   =============================== */
+
+/* Red marker styling */
+
 .red {
   background: linear-gradient(rgb(122,74,14), rgb(245,62,113), rgb(162,27,27));
   box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
 }
+
+/* Green marker styling */
 
 .green {
   background: linear-gradient(#55680D, #71F53E, #116C31);
   box-shadow: 0 0 20px 0 #3B7E20CC;
 }
 
+/* Blue marker styling */
+
 .blue {
   background: linear-gradient(hsl(186,76%,16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
   box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
 }
 
+/* ===============================
+   Hover Effects
+   =============================== */
+
+/* 14 - Expand marker slightly on hover */
+
+.marker:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  animation: bounce 0.5s ease-in-out;
+}
+
+/* 15 - Move cap left on hover */
+
+.marker:hover .cap {
+  transform: translateX(-10px);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* 16 - Apply glow effect on hover */
+
+.marker:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+
+/* 17 - Change colors slightly on hover */
+
+.red:hover {
+  background: linear-gradient(rgb(150, 90, 20), rgb(255, 80, 130), rgb(180, 40, 40));
+}
+
+.green:hover {
+  background: linear-gradient(#6B7A14, #88FF50, #13903A);
+}
+
+.blue:hover {
+  background: linear-gradient(hsl(186, 80%, 25%), hsl(223, 95%, 70%), hsl(240, 65%, 50%));
+}

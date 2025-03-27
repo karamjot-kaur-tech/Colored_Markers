@@ -127,3 +127,14 @@ h1 {
 .blue:hover {
   background: linear-gradient(hsl(186, 80%, 25%), hsl(223, 95%, 70%), hsl(240, 65%, 50%));
 }
+
+/* ===============================
+   Click Effect
+   =============================== */
+
+/* 18 - Slight shrink on click */
+
+.marker:active {
+  transform: scale(0.9);
+  animation: clickBounce 0.2s ease-in-out;
+}

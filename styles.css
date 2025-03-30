@@ -104,7 +104,7 @@ h1 {
 /* 15 - Move cap left on hover */
 
 .marker:hover .cap {
-  transform: translateX(-10px);
+  transform: translateX(-10px);   
   transition: transform 0.3s ease-in-out;
 }
 
@@ -147,14 +147,14 @@ h1 {
 
 @keyframes bounce {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+  50% { transform: translateY(-10px); }   
 }
 
 /* 20 - Slow Floating Animation */
 
 @keyframes slowBounce {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-5px); }
+  50% { transform: translateY(-5px); } 
 }
 
 /* 21 - Click Bounce Animation */
